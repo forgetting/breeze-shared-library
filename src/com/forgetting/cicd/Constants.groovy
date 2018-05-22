@@ -6,8 +6,8 @@ package com.forgetting.cicd;
  * @date: 2018-04-27
  */
 class Constants {
-    static final PRODUCT_CONFIG_GIT_URL = "git@10.122.7.81:DevOpsFiles/ConfigFile.git";
-    static final APPS_CONFIG_GIT_GROUP = "git@10.122.7.81:CICDconfig";
+    static final PRODUCT_CONFIG_GIT_URL = "git@10.xxx.xx.xxx:DevOpsFiles/ConfigFile.git";
+    static final APPS_CONFIG_GIT_GROUP = "git@10.xxx.xx.xxx:CICDconfig";
     
     static final JENKINS_FILE_DIR = "jenkins-file-repo";
     static final APP_CONFIG_DIR = "app-config-repo";
