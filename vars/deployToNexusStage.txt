@@ -1,0 +1,14 @@
+**
+* Stage: deployToNexusStage
+* Usage: deployToNexusStage nexusUrl: "http://", repoName: "SnapShot", pom:pom, folderName: "xxxx"
+*    Or: deployToNexusStage(["nexusUrl": "http://", "repoName": "SnapShot", "pom": pom, "folderName": "xxxx"])
+* Parameter: 
+*       nexusUrl (required) (Nexus Url)
+*       repoName (required) (repo Name)
+*       pom (required) (pom Object)
+*       folderName (required) (file in this folder)
+*
+* @author: wang.j86@foxmail.com
+* @version: 1.0
+* @date: 2018-05-11
+*/

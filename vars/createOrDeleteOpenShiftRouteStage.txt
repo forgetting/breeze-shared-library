@@ -1,0 +1,14 @@
+/**
+* Stage: createOrDeleteOpenShiftRouteStage
+* Usage: createOrDeleteOpenShiftRouteStage ocServer: "http://xxx", namespace: "cns", productEnv: "dev", projectName: "app", appAllConfig: appAllConfig
+* Parameter: 
+*       ocServer (required) (OpenShift Server)
+*       namespace (required) (OpenShift Namespace, Default is Product Name)
+*       productEnv (required) (Product Env)
+*       projectName (required) (Project Name)
+*       appAllConfig (required) (Product All config)
+*
+* @author: wang.j86@foxmail.com
+* @version: 1.0
+* @date: 2018-05-14
+*/

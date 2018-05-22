@@ -1,0 +1,17 @@
+/**
+* Stage: createOrUpdateOpenShiftDCStage
+* Usage: createOrUpdateOpenShiftDCStage ocServer: "http://xxx", namespace: "cns", productEnv: "dev", projectName: "app", yamlTemplateName: "Springboot-deployment.yaml", imageFullUrl: "http://xxx", appAllConfig: appAllConfig, folderName: "xxx"
+* Parameter: 
+*       ocServer (required) (OpenShift Server)
+*       namespace (required) (OpenShift Namespace, Default is Product Name)
+*       productEnv (required) (Product Env)
+*       projectName (required) (Project Name)
+*       yamlTemplateName (required) (Yaml File Name)
+*       imageFullUrl (required) (Image Name)
+*       appAllConfig (required) (App All Config)
+*       folderName (required)
+*
+* @author: wang.j86@foxmail.com
+* @version: 1.0
+* @date: 2018-05-14
+*/

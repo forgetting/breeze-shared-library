@@ -1,0 +1,14 @@
+/**
+* Stage: moveImageToDiffRegistry
+* Usage: moveImageToDiffRegistry sourceRegistryURL: "http://", targetRegistryURL: "http://", productName: "cns", pom: pom
+*    Or: moveImageToDiffRegistry(["sourceRegistryURL": "http://", "targetRegistryURL": "http://", "productName": "cns", "pom": pom])
+* Parameter: 
+*       sourceRegistryURL (required) (Source Docker registry Url)
+*       targetRegistryURL (required) (Target Docker registry Url)
+*       productName (required) (productName)
+*       pom (required) (pom Object)
+*
+* @author: wang.j86@foxmail.com
+* @version: 1.0
+* @date: 2018-05-11
+*/

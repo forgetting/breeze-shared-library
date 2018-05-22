@@ -1,0 +1,14 @@
+/**
+* Stage: mvnBuildStage
+* Usage1: mvnBuildStage isSkipTest: true, isFailureIgnore: true, compilePara: "", folderName: ""
+* Usage2: mvnBuildStage(["isSkipTest": true, "isFailureIgnore": true, "compilePara": "-U", "folderName": "xxxx"]) 
+* Parameter: 
+*       isSkipTest (required) (test skip is true)
+*       isFailureIgnore (required) (test failure ignore is true)
+*       compilePara (optional) (Default Value: "-U -e -X")
+*       folderName (required) (code folder)
+*
+* @author: wang.j86@foxmail.com
+* @version: 1.0
+* @date: 2018-05-10
+*/

@@ -1,0 +1,17 @@
+/**
+* Stage: buildJavaImageAndPushStage
+* Usage: buildJavaImageAndPushStage registryUrl: "http://", productName: "CNS", envName: "dev", pom: pom, dockerfileName: "SpringbootDockerfile", appConfig:appConfig, folderName: "xxxx"
+*    Or: buildJavaImageAndPushStage(["registryUrl": "http://", "productName": "CNS", "envName": "dev", "pom": pom, "dockerfileName": "SpringbootDockerfile", "appConfig": appConfig, "folderName": "xxxx"])
+* Parameter: 
+*       registryUrl (required) (Docker registry Url)
+*       productName (required) (Product Name)
+*       envName (required) (Env)
+*       pom (required) (pom Object)
+*       dockerfileName (required) (dockerfile Name)
+*       appConfig (required) (app Config Object)
+*       folderName (required) (file in this folder)
+*
+* @author: wang.j86@foxmail.com
+* @version: 1.0
+* @date: 2018-05-11
+*/

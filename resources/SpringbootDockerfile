@@ -1,0 +1,14 @@
+FROM envcicd-registry.ocp.com:5000/redhat-openjdk-18/openjdk18-openshift:latest
+USER root
+VOLUME /tmp
+
+ENV TZ=Asia/Shanghai
+RUN ln -snf /usr/share/zoneinfo/$TZ /etc/localtime && echo $TZ > /etc/timezone
+
+ADD temp.jar /deployments/app.jar
+
+RUN mkdir /deployments/heapdump
+RUN chmod +x -Rf /usr/local/s2i/*
+
+USER 185
+ENTRYPOINT ["sh","-c","/usr/local/s2i/run"]

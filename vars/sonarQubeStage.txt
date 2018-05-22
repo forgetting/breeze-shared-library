@@ -1,0 +1,12 @@
+/**
+* Stage: sonarQubeStage
+* Usage1: sonarQubeStage pom: pom, folderName: "xxxx"
+* Usage2: sonarQubeStage(["pom": pom, "folderName": "xxxx"]) 
+* Parameter: 
+*       pom (required) (pom file)
+*       folderName (required) (code folder)
+*
+* @author: wang.j86@foxmail.com
+* @version: 1.0
+* @date: 2018-05-10
+*/

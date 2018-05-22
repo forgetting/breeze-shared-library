@@ -1,0 +1,14 @@
+/**
+* Stage: gitCheckoutStage
+* Usage: gitCheckoutStage repoUrl: "xxxxx", branch: "1.0.0", folderName: "xxxx"
+*    Or: gitCheckoutStage(["repoUrl": "xxxx", "branch": "1.0.0", "folderName": "xxxx"])
+* Parameter: 
+*       repoUrl (required) (Git Url)
+*       branch (required) (Git Branch)
+*       folderName (required) (Git pull files to this folder)
+*
+* @author: wang.j86@foxmail.com
+* @version: 1.0
+* @date: 2018-05-10
+*/
+
